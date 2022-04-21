@@ -1,0 +1,665 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.9">
+    
+    
+      
+        <title>Val's Dream - obsidian-mkdocs template</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.120efc48.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.9647289d.min.css">
+        
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="pink" data-md-color-accent="indigo">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="obsidian-mkdocs template" class="md-header__button md-logo" aria-label="obsidian-mkdocs template" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            obsidian-mkdocs template
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Val's Dream
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="pink" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="pink" data-md-color-accent="blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="obsidian-mkdocs template" class="md-nav__button md-logo" aria-label="obsidian-mkdocs template" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    obsidian-mkdocs template
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        Obsidian Notes
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          101 Project Apocrypha
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="101 Project Apocrypha" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          101 Project Apocrypha
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1" type="checkbox" id="__nav_2_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_1">
+          101.1 Design Documents
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="101.1 Design Documents" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          101.1 Design Documents
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../101.1%20Design%20Documents/101.00%20Project%20Tracker/" class="md-nav__link">
+        101.00 Project Tracker
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../101.1%20Design%20Documents/101.02%20Task%20Resolution/" class="md-nav__link">
+        Resolving Conflicts
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../101.1%20Design%20Documents/101.03%20Skills%20and%20Attributes/" class="md-nav__link">
+        Skills
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../101.1%20Design%20Documents/101.04%20Combat/" class="md-nav__link">
+        Engagments and Threat
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../101.1%20Design%20Documents/101.05%20Damage%20and%20Resistances/" class="md-nav__link">
+        Damage and Injury - For Characters and Important PCs
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../101.1%20Design%20Documents/101.06%20Weapons%20and%20Armor/" class="md-nav__link">
+        Ranged Weapons
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_2">
+          101.2   VTM
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="101.2   VTM" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          101.2   VTM
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../101.2%20-%20VTM/101.2.01%20VTM%20Dice%20System%20Selection%20%282d100%29/" class="md-nav__link">
+        VTM  Option - DUAL D100
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../101.2%20-%20VTM/101.2.02%20-%20The%20Beast/" class="md-nav__link">
+        101.2.02   The Beast
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../101.2%20-%20VTM/102.2.03%20-%20Hunger/" class="md-nav__link">
+        102.2.03   Hunger
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" type="checkbox" id="__nav_2_3" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_3">
+          Uncategorized
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Uncategorized" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Uncategorized
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Firearms/" class="md-nav__link">
+        Recoil Comp
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Val's Dream
+      </a>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+
+  <h1>Val's Dream</h1>
+
+<p>Maris finds herself in the midst of a stream of concious thoughts and memories.</p>
+<ul>
+<li>Maris finds herself on a boat in the Chesapeake Bay. There’s a scream and a splash behind her. Val is drowning. </li>
+<li>Maris is in the passenger seat of an MG B convertible with a young Teenage Val, driving through the scorching sun of the Nevada desert. Val is giggling, looking over at Maris. <ul>
+<li>Memory of her father taking her out to drive illegally</li>
+</ul>
+</li>
+<li>The view cuts to the desert at night, a full moon high in the sky, clear and cloudless. The moon’s light grows brighter until it washes out everything.</li>
+<li>Val and James are sitting in a field at Hopkins.<ul>
+<li>“You can’t live your life in fear of losing out, Val. There will always be experiences you’ll never have. Every single choice closes a million doors, and we don’t even get to make all of them.“</li>
+<li>“So what? That’s why you’re not afraid of getting sent off to Somalia to die? Who gives a shit? That’s your profound conclusion. You get to just wave your hand and say <em>‘oh, I’m adrift on the sea of fate’?</em> How romantic. Who wrote that? Tolstoy?”</li>
+<li>James smiles. “Harsh take. I happen to think it’s rooted in raitonalism, not romanticism. No, of course I don’t want to die, but there are worse things than death. Regret. Being trapped in a life worth living, not having a purpose, or worse, forgoing your purpose for fear of doing it wrong. Life isn’t a puzzle you can solve. There is no test at the end, no final score. There is no reward. We all die alone. Staying on the farm was another kind of death. A worse kind, I judged. Time will tell.“</li>
+<li>“I still think you’re an idiot. There would have been other ways to get here. You didn’t need to sell your soul to the military industrial complex.” <em>Val sighs.</em></li>
+<li><em>He grins.</em> “It’s that kind of cynicism that ensures that the only people who will want to be in the military will be the worst kind. Morality is important everywhere, especially in a profession where life and death is on the line.”</li>
+<li>“So what if you only live to 29? What if you never have kids?”</li>
+<li><em>He looks at her sadly.</em> “No matter how long you or I live, if someone were to ask us on our deathbeds, <em>‘What was it like living on Earth?”</em> the only honest answer would be “I don’t know. I passed through it once, but I’ve never really <em>been</em> there. Twenty-five, ninety, or a thousand. It doesn’t matter. Letting that fear keep you back will ruin what time you get.”</li>
+<li>“So... you just make gut decisions for everything? It’s all seat of the pants?”</li>
+<li>“That’s sort of a simplification, but I suppose. The only real thing you can do is look at your options, look at your goals, and look at your morals, and do your level best to square that circle. ”</li>
+<li>“That seems simplistic.”</li>
+<li>“Anything but. Who’s a better man - the one who lives a life of virtue but whose virtues are never challenged, or the sinner who strives and fails?”</li>
+<li>“So an easy life isn’t worth living?”</li>
+<li><em>He beams at her, as if she’s finally gotten it.</em> “If it’s easy, you’re not doing it right.”</li>
+<li>She stares in to his eyes, and his shift to the eyes of a mother struggling to deliver a baby.</li>
+</ul>
+</li>
+<li>Val delivers a baby in the hallway of 9/11 as the mother is dying from her injuries. Maris sees this from the perspective of the mother. She holds the baby and shushes it. </li>
+<li>Val cries tears of joy as the hospital chaplain marries them in the street. James is in his uniform, with a duffel bag at his feet. She is the Chaplain saying the words.</li>
+<li>An outing with the gang at bowling.</li>
+<li>Val takes Qadir to a baseball game.</li>
+<li>David reads to her. She reads to David in the Dream.</li>
+<li>There’s a jumble of memories, from people totally unrelated, from different times, places, and walks of life. Children’s birthdays, funerals, boring lectures, and a shepherd’s life in a field. </li>
+<li>
+<ul>
+<li>The beauty of a waterfall, watching the ebb and flow of crashing water and mist. The mist rises and changes as the light catches it. The rainbow-shimmer of the water in the air washes out the view.</li>
+</ul>
+</li>
+<li>Maris finds herself in the Wheat Field. There are a crowd of different Val’s around her, some of whom have the ashen hair of Val as a Kindred, and some as a mortal. <ul>
+<li>A woman holding a child.</li>
+<li>A woman in a flowing white dress, holding a set of scales, with a blindfold. (Justice)</li>
+<li>A woman in ethereal armor, holding a glowing ethereal sword. (The Noble Herald)</li>
+<li>A woman in bloody, rusty armor, holding a shifting, scintilating severed head, which changes forms. Her hands drip blood, and a broken sword sits in her right hand, which itself constantly shifts between appeareances.</li>
+<li>A doctor in scrubs with bloody hands</li>
+<li>In a naval aviator’s uniform</li>
+<li>In a straightjacket</li>
+<li>Dressed like Aisling, as a Tremere</li>
+<li>As an Anarch</li>
+<li>As a Sabbat</li>
+<li>As a Salubri</li>
+<li>At the center stands a Val with ethereal, shimmering iredescent robes. Her eyes are ablaze with color, the light obscuring most of her face. Her hair drifts as she turns like she’s underwater, following in an impossibly slow arc.</li>
+</ul>
+</li>
+<li>There are others, standing, also watching. Qadir, David, Vickers, Isabel, the Individual, in the back corner.</li>
+<li>Everyone is watching a Val in dark grey combat fatigues and the plate carrier duel the Wayward Hunter.</li>
+<li>The gleaming ethereal approaches. She almost seems surprised that Maris is here. “Hmmph. I did not expect she would be able to manage this so soon. There is so little time for her, and so much she must do. You jeopardize it all.”</li>
+<li>The Mother: “She just doesn’t want innocent people to get hurt.”</li>
+<li>The Salburi: “A dangerous, impossible hope for the Last Daughter of Eve.”</li>
+<li>The Bloody Handed Herald: “This Camarilla slave would help the Great Destroyer?” <em>She smirks.</em></li>
+</ul>
+<p>If Maris asks where she is, Ethereal Val answers.: “Child, is it not obvious? The Dream, the Twilight, the… between. What Has Been Made and May Never be Unmade, the refuge. The place where the Demented Seer themselves triumphed over death, not created out of fear, or a pathetic mortal desire for self-preservation, but for a single purpose.”</p>
+<p>If Maris asks Ethereal Val about the memories she was shown: “The Dream is a chaotic place. It is easy to become lost, to stream in to others, to lose oneself to the Twilight. She centers herself with those memories, with the cementation of the self as the raging torrent of <em>other</em> swirls around us all. They all lose eventually. She will, one day.”</p>
+<p>If she asks about manifestations: “She that could have been, or, she that may still be. Hopes, dreams, fantasies, and impossibilities. Her, as much as she is. Maybe more.“</p>
+<p>When Maris finishes asking questions of them, the scene begins to fracture. The fight happens a thousand times in rapid speed in front of her. Val sits crosslegged in the dirt. Her eyes take on the blinding glow of Ethereal Val, although she doesn’t seem to notice. Behind her head appears what seems to be a silver halo in the style of an Orthodox or Catholic Icon.</p>
+<p>She notices Maris. “Oh.” <em>She cocks her head.</em> “I didn’t know if you would come. I wasn’t sure if you cared for me too much.”</p>
+<ul>
+<li>TO DO</li>
+<li>Look up Persuasion specs</li>
+<li>Finalize CS for tomorrow</li>
+</ul>
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../Firearms/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Recoil Comp" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Recoil Comp
+            </div>
+          </div>
+        </a>
+      
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.6e54b5cd.min.js"></script>
+      
+    
+  </body>
+</html>
